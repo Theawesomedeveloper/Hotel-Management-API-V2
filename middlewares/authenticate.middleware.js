@@ -10,7 +10,7 @@ function authenticate(req, res, next) {
     // const token = req.header('x-auth-token')
     // boss you sef don see say i try 
 
-    // console.log(req.header(''));
+  
     try {
 
         const token = req.headers.cookie.slice(11)
@@ -30,7 +30,7 @@ function authenticate(req, res, next) {
 
 
     } catch (error) {
-        console.log(error)
+        console.error(error)
         return res.status(400).json({ success: false, message: 'Session expired, you need to Login' });
     }
 

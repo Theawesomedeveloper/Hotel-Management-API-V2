@@ -15,7 +15,6 @@ class RoomTypeService {
 
     // delete a room type
     async delete(filter) {
-        console.log(filter);
         return await RoomType.findOneAndDelete(filter);
     }
 

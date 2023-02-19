@@ -15,12 +15,11 @@ app.use('/api/v2', rootRoute)
 
 connect(process.env.URI)
     .then(() => console.log('Database connected sucessfully'))
-    .catch(error => console.log(`Something went wrong while connecting to database: ${error.message}`))
+    .catch(error => console.error(`Something went wrong while connecting to database: ${error.message}`))
 
 
 app.listen(PORT, function () {
     // connect to database 
-
-    console.log(`Server running on 127.0.0.1:${PORT}`)
+    console.log(`Server running `)
 })
 

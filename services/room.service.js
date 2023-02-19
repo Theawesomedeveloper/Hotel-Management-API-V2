@@ -23,9 +23,7 @@ class RoomService {
     }
 
     // fetch all rooms
-    async fetchAll(filter) {
-        console.log(filter);
-        
+    async fetchAll(filter) {        
         return await Room.find(filter, {__v: 0}).populate('roomType')
     }
 }

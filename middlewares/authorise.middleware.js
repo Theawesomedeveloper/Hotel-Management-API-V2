@@ -4,7 +4,6 @@ require('dotenv').config()
 function authorize(role) {
     return function (req, res, next) {
         
-        console.log(req.user);
         
         if (req.user.role !== role) {
             return res.status(403).send('Access denied.');
