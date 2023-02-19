@@ -42,7 +42,7 @@ class UserController {
 
                 .status(201)
                 .cookie('rememberme', token, { expires: new Date(Date.now() + 86400000), httpOnly: true })
-                .json({ success: true, message: "user created successfully", data: { email: createdUser.email, role: createdUser.role } });
+                .json({ success: true,token, message: "user created successfully", data: { email: createdUser.email, role: createdUser.role } });
 
 
 
@@ -71,7 +71,7 @@ class UserController {
         res
             .status(200)
             .cookie('rememberme', token, { expires: new Date(Date.now() + 86400000), httpOnly: true }) // set cookie to expire in one day
-            .json({ success: true, data: { email: foundUser.email, role: foundUser.role } });
+            .json({ success: true, token, data: { email: foundUser.email, role: foundUser.role } });
 
     }
 
