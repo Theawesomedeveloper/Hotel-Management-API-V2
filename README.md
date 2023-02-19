@@ -25,10 +25,12 @@ https://lavilla.onrender.com/api/v2/user/logout
 ## RUN LIVE VERSION
 
 ### find API Documentation [Here](https://documenter.getpostman.com/view/23888060/2s93CHuusL)
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/23888060-d40acc31-e06d-4cfc-85f4-c3aad73ffac4?action=collection%2Ffork&collection-url=entityId%3D23888060-d40acc31-e06d-4cfc-85f4-c3aad73ffac4%26entityType%3Dcollection%26workspaceId%3D2b06ad48-72f9-47f5-ab0c-b6088331e2f1#?env%5BProduction%5D=W3sia2V5IjoiVVJMIiwidmFsdWUiOiJodHRwczovL2xhdmlsbGEub25yZW5kZXIuY29tLyIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0Iiwic2Vzc2lvblZhbHVlIjoiaHR0cHM6Ly9sYXZpbGxhLm9ucmVuZGVyLmNvbS8iLCJzZXNzaW9uSW5kZXgiOjB9LHsia2V5Ijoiand0IiwidmFsdWUiOm51bGwsImVuYWJsZWQiOnRydWUsInR5cGUiOiJhbnkiLCJzZXNzaW9uVmFsdWUiOiJudWxsIiwic2Vzc2lvbkluZGV4IjoxfV0=)
+[![Run live version in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/23888060-d40acc31-e06d-4cfc-85f4-c3aad73ffac4?action=collection%2Ffork&collection-url=entityId%3D23888060-d40acc31-e06d-4cfc-85f4-c3aad73ffac4%26entityType%3Dcollection%26workspaceId%3D2b06ad48-72f9-47f5-ab0c-b6088331e2f1#?env%5BProduction%5D=W3sia2V5IjoiVVJMIiwidmFsdWUiOiJodHRwczovL2xhdmlsbGEub25yZW5kZXIuY29tLyIsImVuYWJsZWQiOnRydWUsInR5cGUiOiJkZWZhdWx0Iiwic2Vzc2lvblZhbHVlIjoiaHR0cHM6Ly9sYXZpbGxhLm9ucmVuZGVyLmNvbS8iLCJzZXNzaW9uSW5kZXgiOjB9LHsia2V5Ijoiand0IiwidmFsdWUiOm51bGwsImVuYWJsZWQiOnRydWUsInR5cGUiOiJhbnkiLCJzZXNzaW9uVmFsdWUiOiJudWxsIiwic2Vzc2lvbkluZGV4IjoxfV0=)
 
 
 ## RUN LOCALLY
+
+[![Run local version in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/23888060-d40acc31-e06d-4cfc-85f4-c3aad73ffac4?action=collection%2Ffork&collection-url=entityId%3D23888060-d40acc31-e06d-4cfc-85f4-c3aad73ffac4%26entityType%3Dcollection%26workspaceId%3D2b06ad48-72f9-47f5-ab0c-b6088331e2f1#?env%5BDevelopment%3A%20Hotel%20Management%20Api%5D=W3sia2V5IjoiVVJMIiwidmFsdWUiOiJodHRwOi8vMTI3LjAuMC4xOjMwMDAvIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImRlZmF1bHQiLCJzZXNzaW9uVmFsdWUiOiJodHRwOi8vMTI3LjAuMC4xOjMwMDAvIiwic2Vzc2lvbkluZGV4IjowfSx7ImtleSI6Imp3dCIsInZhbHVlIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBaQ0k2SWpZelpqQmtZVGMyT1RnelpXRTVZVEJsWVdJeU1EVTBZaUlzSW5KdmJHVWlPaUpoWkcxcGJpSXNJbWxoZENJNk1UWTNOamMwTlRBeE55d2laWGh3SWpveE5qYzJPRE14TkRFM2ZRLlA5bmlZbmwwMnRmM1JSTXBSY3ZLU015T2s2ZlFXTVZsRU1TM3Q0MjRscTQiLCJlbmFibGVkIjp0cnVlLCJ0eXBlIjoiZGVmYXVsdCIsInNlc3Npb25WYWx1ZSI6Im51bGwiLCJzZXNzaW9uSW5kZXgiOjF9XQ==)
 
 ## Installation Guide
 * Clone this repository [here](https://github.com/Theawesomedeveloper/Hotel-Management-API-V2.git).
@@ -89,4 +91,4 @@ Hotel-Management-API-V2
         ├───roomtype.service.js
         └───user.service.js
 ```
-
+[![Run local version in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/23888060-d40acc31-e06d-4cfc-85f4-c3aad73ffac4?action=collection%2Ffork&collection-url=entityId%3D23888060-d40acc31-e06d-4cfc-85f4-c3aad73ffac4%26entityType%3Dcollection%26workspaceId%3D2b06ad48-72f9-47f5-ab0c-b6088331e2f1#?env%5BDevelopment%3A%20Hotel%20Management%20Api%5D=W3sia2V5IjoiVVJMIiwidmFsdWUiOiJodHRwOi8vMTI3LjAuMC4xOjMwMDAvIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImRlZmF1bHQiLCJzZXNzaW9uVmFsdWUiOiJodHRwOi8vMTI3LjAuMC4xOjMwMDAvIiwic2Vzc2lvbkluZGV4IjowfSx7ImtleSI6Imp3dCIsInZhbHVlIjoiZXlKaGJHY2lPaUpJVXpJMU5pSXNJblI1Y0NJNklrcFhWQ0o5LmV5SnBaQ0k2SWpZelpqQmtZVGMyT1RnelpXRTVZVEJsWVdJeU1EVTBZaUlzSW5KdmJHVWlPaUpoWkcxcGJpSXNJbWxoZENJNk1UWTNOamMwTlRBeE55d2laWGh3SWpveE5qYzJPRE14TkRFM2ZRLlA5bmlZbmwwMnRmM1JSTXBSY3ZLU015T2s2ZlFXTVZsRU1TM3Q0MjRscTQiLCJlbmFibGVkIjp0cnVlLCJ0eXBlIjoiZGVmYXVsdCIsInNlc3Npb25WYWx1ZSI6Im51bGwiLCJzZXNzaW9uSW5kZXgiOjF9XQ==)
