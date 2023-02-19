@@ -49,7 +49,6 @@ class RoomTypeController {
       * @returns 
       */
     async fetchAllRoomTypes(req, res) {
-        // console.log(req);
         const filter = req.query
 
         const foundRoomTypes = await roomTypeService.fetchAll(filter);
