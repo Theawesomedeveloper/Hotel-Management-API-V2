@@ -10,7 +10,7 @@ function authenticate(req, res, next) {
     // const token = req.header('x-auth-token')
     // boss you sef don see say i try 
 
-  
+
     try {
 
         const token = req.headers.cookie?.slice(11)
@@ -18,7 +18,7 @@ function authenticate(req, res, next) {
 
 
         if (!token) {
-            return res.status(401).send('Access denied. you need to Login');
+            return res.status(401).json({ success: false, message: 'Access denied. you need to Login' });
         }
 
 
