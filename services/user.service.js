@@ -13,7 +13,7 @@ class UserService {
     }
 
     async update(filter, userData){
-        return await User.updateOne(filter, userData, {new: true})
+        return await User.findOneAndUpdate(filter, userData, {new: true})
     }
 
 

@@ -87,7 +87,7 @@ class UserController {
 
         // check if user with that email exists
         if (userData.email) {
-            const existingUser = userService.findOne({ email: userData.email });
+            const existingUser = await userService.findOne({ email: userData.email });
             if (existingUser)
                 return res.status(403).json({ success: false, message: "User with that email already exists" });
 
@@ -99,15 +99,30 @@ class UserController {
                 if (err) {
                     return res.status(400).json({ success: false, message: err.message });
                 }
+
+
                 userData.password = hash;
+
+
+
+
+                const updatedUser = await userService.update({ _id: req.user.id }, userData);
+
+                res
+                    .status(200)
+                    .json({ success: true, message: "user updated successfully", data: { email: updatedUser.email, role: updatedUser.role } });
             })
 
         }
 
-        const updatedUser = userService.update({ _id: req.user.id }, userData)
-        res
-        .status(200)
-        .json({ success: true, message: "user updated successfully", data: updatedUser });
+        if (!userData.password) {
+            const updatedUser = await userService.update({ _id: req.user.id }, userData);
+            res
+                .status(200)
+                .json({ success: true, message: "user updated successfully", data: { email: updatedUser.email, role: updatedUser.role } });
+        }
+
+
 
 
     }

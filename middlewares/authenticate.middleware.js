@@ -13,7 +13,7 @@ function authenticate(req, res, next) {
   
     try {
 
-        const token = req.headers.cookie.slice(11)
+        const token = req.headers.cookie?.slice(11)
 
 
 
