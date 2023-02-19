@@ -12,7 +12,9 @@ function authenticate(req, res, next) {
 
     // console.log(req.header(''));
     try {
-        const token = req.headers.authorization
+
+        const token = req.headers.cookie.slice(11)
+
 
 
         if (!token) {
@@ -20,7 +22,7 @@ function authenticate(req, res, next) {
         }
 
 
-        const decoded = jwt.verify(token.split(' ')[1], process.env.SECRET_KEY)
+        const decoded = jwt.verify(token, process.env.SECRET_KEY)
 
         req.user = decoded;
 

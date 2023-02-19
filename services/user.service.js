@@ -12,6 +12,10 @@ class UserService {
         return await User.findOne(filter)
     }
 
+    async update(filter, userData){
+        return await User.updateOne(filter, userData, {new: true})
+    }
+
 
 }
 module.exports = new UserService()

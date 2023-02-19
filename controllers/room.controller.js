@@ -98,7 +98,7 @@ class RoomController {
         if (error) {
             return res.status(400).json({ success: false, message: error.details[0].message })
         }
-
+        let filter
         if (req.query.roomType) {
             filter = {
                 roomId: new RegExp("^" + req.query.roomType.slice(0, 3))
@@ -134,7 +134,7 @@ class RoomController {
             return res.status(400).json({ success: false, message: error.details[0].message })
         }
 
-        
+
 
         // check if room exists
         const existingRoom = await roomService.fetchOne({ roomId: requestedRoom.roomId });
